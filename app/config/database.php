@@ -54,20 +54,20 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'database',
-			'username'  => 'root',
-			'password'  => '',
-			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
+			'host'      => 'db4free.net',
+			'database'  => 'perdtye',
+			'username'  => 'perdtye',
+			'password'  => 'se2014',
+			'charset'   => 'utf8mb4',
+			'collation' => 'utf8mb4_unicode_ci',
 			'prefix'    => '',
 		),
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
-			'database' => 'database',
-			'username' => 'root',
+			'database' => 'forge',
+			'username' => 'forge',
 			'password' => '',
 			'charset'  => 'utf8',
 			'prefix'   => '',
@@ -92,7 +92,7 @@ return array(
 	|
 	| This table keeps track of all the migrations that have already run for
 	| your application. Using this information, we can determine which of
-	| the migrations on disk have not actually be run in the databases.
+	| the migrations on disk haven't actually been run in the database.
 	|
 	*/
 
@@ -111,7 +111,7 @@ return array(
 
 	'redis' => array(
 
-		'cluster' => true,
+		'cluster' => false,
 
 		'default' => array(
 			'host'     => '127.0.0.1',

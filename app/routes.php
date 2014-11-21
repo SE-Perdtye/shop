@@ -15,3 +15,19 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('users', function()
+{
+    return View::make('users');
+});
+
+Route::get('pae', function()
+{
+    return 'pae!!';
+    });
+
+Route::get('member',function()
+{
+
+	return Credit::find(1)->member;
+});
