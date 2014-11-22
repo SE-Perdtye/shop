@@ -52,6 +52,17 @@ return array(
 			'prefix'   => '',
 		),
 
+		// 'mysql' => array(
+		// 	'driver'    => 'mysql',
+		// 	'host'      => 'db4free.net',
+		// 	'database'  => 'perdtye',
+		// 	'username'  => 'perdtye',
+		// 	'password'  => 'se2014',
+		// 	'charset'   => 'utf8mb4',
+		// 	'collation' => 'utf8mb4_unicode_ci',
+		// 	'prefix'    => '',
+		// ),
+
 		'mysql' => array(
 			'host' => getenv('OPENSHIFT_MYSQL_DB_HOST'),
 		    'port' => getenv('OPENSHIFT_MYSQL_DB_PORT'),
