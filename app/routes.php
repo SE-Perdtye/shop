@@ -31,3 +31,8 @@ Route::get('member',function()
 
 	return Credit::find(1)->member;
 });
+
+Route::get('putt',function()
+{
+    return 'hello';
+});
